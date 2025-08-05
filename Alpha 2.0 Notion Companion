@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alpha 2.0 - Control Panel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background: #0f0f0f;
+      color: white;
+    }
+    h1, h2 {
+      color: #00ff88;
+    }
+    .module {
+      border: 2px solid #00ff88;
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+    .button {
+      background: #00ff88;
+      color: #000;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background: #00cc6e;
+    }
+  </style>
+</head>
+<body>
+  <h1>ALPHA 2.0 CONTROL PANEL 🚀</h1>
+
+  <div class="module">
+    <h2>🧠 Daily GPT Prompt Generator</h2>
+    <p>Start your day with a clarity + command prompt tailored to your goals.</p>
+    <button class="button" onclick="alert('Prompt for today: What’s the one action that aligns with who you want to become?')">Generate Prompt</button>
+  </div>
+
+  <div class="module">
+    <h2>🎯 30-Day Challenge Tracker</h2>
+    <p>Track your challenge progress. Check in daily. Reflect weekly.</p>
+    <button class="button" onclick="alert('Challenge Day Updated. Keep Going.')">Mark Today as Complete</button>
+  </div>
+
+  <div class="module">
+    <h2>📥 Info Cloner</h2>
+    <p>Log anything: Ideas, videos, tweets, voice notes. This system will summarize + suggest actions.</p>
+    <button class="button" onclick="alert('New idea cloned. GPT is structuring the output.')">Clone Info</button>
+  </div>
+
+  <div class="module">
+    <h2>🧮 Habit & Focus Score</h2>
+    <p>Check your consistency level and see your streak.</p>
+    <button class="button" onclick="alert('Current streak: 7 days. Discipline Score: 91%.')">View Streak Score</button>
+  </div>
+</body>
+</html>
